@@ -1,0 +1,2663 @@
+[ 2017-07-27T00:10:13+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-07-27T01:09:49+08:00 ] 105.58.238.91 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3616735685&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3616735685' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3616735685' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3616735685' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T01:11:19+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-07-27T01:17:57+08:00 ] 66.249.79.9 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-07-27T01:29:41+08:00 ] 66.249.79.13 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2017-07-27T01:58:21+08:00 ] 88.91.42.58 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8989440336&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8989440336' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8989440336' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8989440336' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T01:59:58+08:00 ] 88.91.42.58 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8756360272&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8756360272' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8756360272' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8756360272' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T02:00:50+08:00 ] 88.91.42.58 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9387279376&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9387279376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9387279376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9387279376' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T02:32:07+08:00 ] 110.170.48.130 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3806707781&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3806707781' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3806707781' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3806707781' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-07-27T02:32:27+08:00 ] 110.170.48.130 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3616735685&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3616735685' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3616735685' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3616735685' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-07-27T02:39:56+08:00 ] 123.151.42.61 http://www.baidu.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2017-07-27T03:01:08+08:00 ] 66.249.79.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9519902864&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9519902864' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9519902864' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9519902864' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-07-27T03:06:07+08:00 ] 119.23.150.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2017-07-27T03:06:41+08:00 ] 66.249.79.69 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5274477253&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5274477253' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5274477253' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5274477253' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-07-27T03:13:44+08:00 ] 66.249.79.66 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9739096400&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9739096400' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9739096400' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9739096400' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-07-27T03:39:45+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-07-27T03:55:51+08:00 ] 66.249.79.9 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2017-07-27T04:28:18+08:00 ] 174.7.132.35 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5664540933&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5664540933' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5664540933' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5664540933' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T04:38:16+08:00 ] 66.249.79.69 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9385118224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9385118224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9385118224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9385118224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-07-27T04:41:13+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-07-27T04:55:56+08:00 ] 66.249.79.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9636078288&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9636078288' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9636078288' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9636078288' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T04:56:20+08:00 ] 66.249.79.66 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3386867589&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3386867589' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3386867589' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3386867589' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-07-27T05:06:40+08:00 ] 66.249.79.14 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2017-07-27T05:17:38+08:00 ] 66.249.79.9 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2017-07-27T05:24:10+08:00 ] 70.42.131.170 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-07-27T05:39:17+08:00 ] 107.77.206.153 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2400603269&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2400603269' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2400603269' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2400603269' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-07-27T05:40:41+08:00 ] 140.205.201.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-07-27T06:39:19+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7969324240&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T06:40:49+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2222215173&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0019s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2222215173' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2222215173' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2222215173' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T06:41:20+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8304520208&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8304520208' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8304520208' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8304520208' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T06:42:15+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7969324240&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-07-27T06:43:44+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5663479493&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5663479493' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5663479493' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5663479493' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2017-07-27T06:43:55+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5664500229&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5664500229' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5664500229' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5664500229' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-07-27T06:45:16+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9203870352&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9203870352' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9203870352' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9203870352' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2017-07-27T06:45:43+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5642472709&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5642472709' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5642472709' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5642472709' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T06:46:52+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8304283600&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8304283600' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8304283600' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8304283600' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-07-27T06:49:00+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8258770448&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8258770448' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8258770448' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8258770448' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T06:49:27+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8258770448&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8258770448' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8258770448' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8258770448' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T06:49:58+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7969324240&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-07-27T06:50:48+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7806209232&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-07-27T06:51:06+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2938137477&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0009s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2938137477' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2938137477' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2938137477' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-07-27T06:52:16+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7806209232&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T06:52:37+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8304520208&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8304520208' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8304520208' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8304520208' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T06:52:52+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2371919557&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2371919557' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2371919557' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2371919557' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T06:53:38+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2212639109&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2212639109' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2212639109' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2212639109' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T06:54:47+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7969324240&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T06:55:17+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7969324240&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7969324240' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-07-27T06:56:05+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7806209232&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T06:56:34+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7806209232&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-07-27T06:57:08+08:00 ] 104.11.79.13 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7806209232&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-07-27T06:58:01+08:00 ] 188.0.72.12 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-07-27T06:58:02+08:00 ] 188.0.72.12 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2017-07-27T06:58:24+08:00 ] 190.233.22.234 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2202458757&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2202458757' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2202458757' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2202458757' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T06:58:30+08:00 ] 190.233.22.234 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2222523461&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2222523461' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2222523461' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2222523461' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T06:58:36+08:00 ] 66.249.79.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-07-27T06:59:56+08:00 ] 190.233.22.234 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8409583376&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T07:00:02+08:00 ] 190.233.22.234 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2211391109&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2211391109' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2211391109' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2211391109' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-07-27T07:16:47+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-07-27T07:30:39+08:00 ] 66.249.79.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5691198405&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5691198405' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5691198405' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5691198405' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T07:41:18+08:00 ] 123.117.172.253 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000138s ]
+
+[ 2017-07-27T08:02:56+08:00 ] 47.88.76.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-07-27T08:04:01+08:00 ] 47.52.37.40 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-07-27T08:09:32+08:00 ] 138.246.253.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-07-27T08:18:36+08:00 ] 49.149.107.11 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3235940357&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3235940357' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3235940357' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3235940357' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-07-27T08:21:00+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2017-07-27T08:27:34+08:00 ] 101.226.33.221 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2017-07-27T08:39:43+08:00 ] 66.86.75.25 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3807426501&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3807426501' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3807426501' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3807426501' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T08:49:31+08:00 ] 23.229.48.102 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3806904069&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3806904069' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3806904069' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3806904069' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T08:50:59+08:00 ] 168.1.128.35 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-07-27T08:52:10+08:00 ] 66.249.79.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2017-07-27T09:18:51+08:00 ] 42.156.251.187 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-07-27T09:19:12+08:00 ] 42.156.251.187 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-07-27T09:44:04+08:00 ] 66.249.79.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2017-07-27T10:20:06+08:00 ] 189.134.182.92 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5619098885&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5619098885' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5619098885' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5619098885' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T10:25:22+08:00 ] 189.134.182.92 /index.php/Home/Reviewatt/relistsortbyproid?product_id=5619098885&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '5619098885' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '5619098885' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '5619098885' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-07-27T10:30:58+08:00 ] 124.235.138.71 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2017-07-27T10:40:19+08:00 ] 162.39.180.2 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3555949189&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T10:40:31+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-07-27T10:41:13+08:00 ] 162.39.180.2 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3555949189&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-07-27T10:41:38+08:00 ] 162.39.180.2 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3555949189&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3555949189' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2017-07-27T10:44:39+08:00 ] 172.91.254.144 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8304830288&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8304830288' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8304830288' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8304830288' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T10:56:42+08:00 ] 138.246.253.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2017-07-27T11:02:31+08:00 ] 24.57.167.66 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2211739077&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2211739077' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2211739077' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2211739077' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-07-27T11:03:53+08:00 ] 209.160.127.71 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3650683845&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3650683845' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3650683845' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3650683845' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-07-27T11:09:34+08:00 ] 66.249.79.12 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-07-27T11:11:46+08:00 ] 209.160.127.71 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3649486213&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3649486213' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3649486213' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3649486213' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-07-27T11:14:33+08:00 ] 66.249.79.9 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000213s ]
+
+[ 2017-07-27T11:21:15+08:00 ] 209.160.127.71 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9748958224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-07-27T11:30:44+08:00 ] 24.57.167.66 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2333525829&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2333525829' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2333525829' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2333525829' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-07-27T11:32:54+08:00 ] 209.160.127.71 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7798252176&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T11:42:52+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-07-27T11:45:12+08:00 ] 66.249.79.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-07-27T12:00:59+08:00 ] 209.160.127.71 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2017-07-27T12:03:38+08:00 ] 24.64.27.86 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8409583376&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-07-27T12:18:53+08:00 ] 138.246.253.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-07-27T12:23:17+08:00 ] 34.228.75.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2017-07-27T12:32:36+08:00 ] 66.249.79.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3274895621&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3274895621' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3274895621' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3274895621' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-07-27T12:41:55+08:00 ] 108.31.235.104 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2203920261&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-07-27T12:42:40+08:00 ] 108.31.235.104 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2203920261&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-07-27T12:44:59+08:00 ] 108.31.235.104 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2203920261&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2203920261' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-07-27T12:49:49+08:00 ] 96.58.146.99 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2938137477&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2938137477' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2938137477' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2938137477' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-07-27T12:51:36+08:00 ] 66.249.79.12 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-07-27T12:53:40+08:00 ] 184.73.25.146 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-07-27T12:55:45+08:00 ] 140.205.201.42 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-07-27T12:55:58+08:00 ] 52.55.97.55 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2017-07-27T12:56:02+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2017-07-27T12:56:27+08:00 ] 66.249.79.7 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-07-27T13:14:17+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-07-27T13:17:31+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-07-27T13:20:44+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-07-27T13:22:27+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-07-27T13:33:15+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-07-27T13:40:48+08:00 ] 23.242.48.83 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8337452112&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8337452112' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8337452112' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8337452112' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-07-27T13:43:16+08:00 ] 23.242.48.83 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8337452112&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8337452112' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8337452112' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8337452112' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T13:52:16+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-07-27T13:54:53+08:00 ] 69.167.3.74 /index.php/Home/Sharepro/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000218s ]
+
+[ 2017-07-27T13:54:53+08:00 ] 69.167.3.74 /index.php/Home/Sharepro/getcontent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-07-27T13:54:53+08:00 ] 69.167.3.74 /index.php/Home/Sharepro/getnamelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T13:55:18+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-07-27T14:00:54+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-07-27T14:01:36+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T14:02:01+08:00 ] 203.116.40.181 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3649548229&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3649548229' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3649548229' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3649548229' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-07-27T14:02:32+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-07-27T14:02:43+08:00 ] 98.203.76.17 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3576147205&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3576147205' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3576147205' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3576147205' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-07-27T14:04:32+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-07-27T14:06:45+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-07-27T14:07:28+08:00 ] 47.88.6.171 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2017-07-27T14:07:29+08:00 ] 47.88.6.171 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-07-27T14:07:30+08:00 ] 47.88.6.171 /index.php?option=com_formmaker&view=formmaker&id=1%20UNION%20ALL%20SELECT%20NULL,%20NULL,NULL,NULL,NULL,CONCAT(0x7165696a71,IFNULL(CAST(md5(3.1415)%20AS%20CHAR),0x20),%200x7175647871),NULL,NULL,NULL,NULL,NULL,NULL,NULL%23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2017-07-27T14:07:30+08:00 ] 47.88.6.171 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2017-07-27T14:07:31+08:00 ] 47.88.6.171 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-07-27T14:07:32+08:00 ] 47.88.6.171 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-07-27T14:10:12+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T14:11:18+08:00 ] 69.167.3.74 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9495876944&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T14:12:40+08:00 ] 66.220.155.249 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9495876944&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T14:12:56+08:00 ] 203.116.40.181 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9495876944&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9495876944' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-07-27T14:15:23+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-07-27T14:18:14+08:00 ] 203.116.40.181 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9481337808&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T14:19:28+08:00 ] 223.73.52.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9754277968&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9754277968' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-07-27T14:23:58+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2017-07-27T14:45:32+08:00 ] 69.167.3.74 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9748958224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-07-27T14:46:39+08:00 ] 59.42.123.36 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9748958224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9748958224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-07-27T14:47:51+08:00 ] 197.248.123.246 /index.php/Home/Reviewatt/relistsortbyproid?product_id=6185426437&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '6185426437' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '6185426437' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '6185426437' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-07-27T14:56:25+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-07-27T14:57:21+08:00 ] 47.88.9.94 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-07-27T14:57:22+08:00 ] 69.167.3.74 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3409513541&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3409513541' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3409513541' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3409513541' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-07-27T15:01:33+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-07-27T15:01:38+08:00 ] 140.205.201.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2017-07-27T15:03:26+08:00 ] 66.249.79.69 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7878349328&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7878349328' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7878349328' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7878349328' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-07-27T15:13:10+08:00 ] 64.74.215.54 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-07-27T15:47:01+08:00 ] 52.87.232.206 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-07-27T15:52:38+08:00 ] 174.201.7.113 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3800504837&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3800504837' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3800504837' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3800504837' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-07-27T15:52:56+08:00 ] 174.201.7.113 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7806209232&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7806209232' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-07-27T15:53:59+08:00 ] 52.23.236.0 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-07-27T16:05:53+08:00 ] 139.162.124.167 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-07-27T16:14:10+08:00 ] 203.116.40.181 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3649548229&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3649548229' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3649548229' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3649548229' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-07-27T16:14:33+08:00 ] 203.116.40.181 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9481337808&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-07-27T16:15:12+08:00 ] 173.252.123.183 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9481337808&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T16:15:27+08:00 ] 173.252.90.168 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9481337808&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T16:15:35+08:00 ] 69.167.3.74 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9481337808&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9481337808' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T16:32:23+08:00 ] 216.218.206.69 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-07-27T16:40:02+08:00 ] 196.52.43.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-07-27T16:54:56+08:00 ] 14.211.39.41 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8730050192&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8730050192' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8730050192' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8730050192' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-07-27T16:55:55+08:00 ] 14.211.39.41 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9489638224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9489638224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9489638224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9489638224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-07-27T16:57:03+08:00 ] 14.211.39.41 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3811815045&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3811815045' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3811815045' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3811815045' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-07-27T16:59:50+08:00 ] 24.93.240.51 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8985163728&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8985163728' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8985163728' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8985163728' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-07-27T17:05:04+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8624870224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8624870224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8624870224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8624870224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T17:06:39+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7798252176&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-07-27T17:07:48+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2698045509&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-07-27T17:08:29+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2698045509&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0007s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-07-27T17:08:43+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2698045509&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2698045509' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-07-27T17:09:46+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7798252176&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7798252176' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T17:09:51+08:00 ] 49.229.51.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=3806707781&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '3806707781' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '3806707781' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '3806707781' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-07-27T17:14:35+08:00 ] 209.160.124.225 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8624870224&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8624870224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8624870224' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8624870224' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-07-27T17:32:16+08:00 ] 66.249.79.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=6185426437&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '6185426437' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '6185426437' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '6185426437' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-07-27T17:32:24+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-07-27T17:34:51+08:00 ] 66.249.79.69 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2222215173&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2222215173' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2222215173' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2222215173' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-07-27T18:32:36+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-07-27T20:01:39+08:00 ] 103.65.182.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2017-07-27T20:22:01+08:00 ] 67.60.109.238 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2202458757&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2202458757' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2202458757' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2202458757' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T20:40:15+08:00 ] 66.249.79.69 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8340089744&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8340089744' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8340089744' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8340089744' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-07-27T20:42:11+08:00 ] 66.249.79.66 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8472157264&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8472157264' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8472157264' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8472157264' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-07-27T20:48:57+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-07-27T20:56:39+08:00 ] 66.249.79.94 /index.php/Home/Reviewatt/relistsortbyproid?product_id=9635036176&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '9635036176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '9635036176' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '9635036176' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-07-27T20:58:11+08:00 ] 138.246.253.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-07-27T21:02:24+08:00 ] 118.178.252.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-07-27T21:11:30+08:00 ] 118.178.252.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-07-27T21:13:23+08:00 ] 64.74.215.50 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-07-27T21:17:44+08:00 ] 197.133.4.214 /index.php/Home/Reviewatt/relistsortbyproid?product_id=7911609040&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0005s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '7911609040' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '7911609040' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '7911609040' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T21:18:17+08:00 ] 197.133.4.214 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8409583376&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8409583376' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-07-27T21:31:14+08:00 ] 138.246.253.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-07-27T21:34:36+08:00 ] 66.249.79.66 /index.php/Home/Reviewatt/relistsortbyproid?product_id=8565753808&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '8565753808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '8565753808' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '8565753808' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-07-27T21:48:51+08:00 ] 69.30.219.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-07-27T21:48:58+08:00 ] 91.230.47.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-07-27T21:50:20+08:00 ] 54.70.119.73 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-07-27T21:50:21+08:00 ] 85.143.218.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-07-27T21:50:26+08:00 ] 85.143.218.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-07-27T21:51:21+08:00 ] 187.105.29.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2017-07-27T21:54:42+08:00 ] 103.78.132.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-07-27T21:59:57+08:00 ] 103.65.182.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-07-27T22:44:07+08:00 ] 109.66.86.152 /index.php/Home/Reviewatt/relistsortbyproid?product_id=2333525829&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `reviewatt` [ RunTime:0.0006s ]
+SQL: SELECT AVG(rating) AS tp_avg FROM `reviewatt` WHERE `product_id` = '2333525829' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reviewatt` WHERE `product_id` = '2333525829' AND `isshow` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `reviewatt` WHERE `product_id` = '2333525829' AND `isshow` = 1 ORDER BY create_at desc,product_id LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+

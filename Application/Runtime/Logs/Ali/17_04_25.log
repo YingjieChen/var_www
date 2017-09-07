@@ -1,0 +1,767 @@
+[ 2017-04-25T08:50:08+08:00 ] 113.111.83.76 /index.php/Ali
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-04-25T08:51:51+08:00 ] 113.111.83.76 /index.php/Ali
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-04-25T09:00:48+08:00 ] 113.111.83.76 /index.php/Ali
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-04-25T09:04:38+08:00 ] 113.111.83.76 /index.php/Ali
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2017-04-25T09:18:48+08:00 ] 113.111.83.76 /index.php/Ali
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-04-25T09:18:52+08:00 ] 113.111.83.76 /index.php/Ali/Pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [2] include(/var/www/Application/Ali/Controller/PayController.class.php): failed to open stream: Permission denied /var/www/ThinkPHP/Library/Think/Think.class.php 第 168 行.
+NOTIC: [2] include(): Failed opening '../Application/Ali/Controller/PayController.class.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /var/www/ThinkPHP/Library/Think/Think.class.php 第 168 行.
+ERR: 无法加载控制器:Pay
+
+[ 2017-04-25T09:19:44+08:00 ] 113.111.83.76 /index.php/Ali/Pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: 非法操作:index
+
+[ 2017-04-25T09:22:00+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:22:49+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:25:33+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:26:24+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:26:26+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:29:46+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:29:52+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:34:14+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:36:27+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:36:56+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:36:57+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:36:58+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:37:06+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:37:21+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:38:00+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:38:12+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:39:36+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:39:38+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:40:05+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:45:27+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:45:49+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:46:35+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:47:28+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:48:54+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:49:16+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 37 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 38 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 39 行.
+
+[ 2017-04-25T09:50:16+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [2] require_once(alipay_core.function.php): failed to open stream: No such file or directory /var/www/Application/Ali/Controller/AlipaySubmit.php 第 13 行.
+
+[ 2017-04-25T09:51:12+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-04-25T09:51:34+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-04-25T09:53:52+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-04-25T09:53:57+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-04-25T10:00:03+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-04-25T10:02:49+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-04-25T10:02:54+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-04-25T10:02:59+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-04-25T10:04:23+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-04-25T10:05:55+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-04-25T10:09:10+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-04-25T10:09:14+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-04-25T10:09:33+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-04-25T10:09:45+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-04-25T10:17:02+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-04-25T10:17:13+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-04-25T10:17:45+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-04-25T10:18:45+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-04-25T10:19:53+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-04-25T10:20:38+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-04-25T10:21:46+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-04-25T10:22:41+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-04-25T10:23:14+08:00 ] 113.111.83.76 /index.php/Ali/Pay/doalipay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: trade_no /var/www/Application/Ali/Controller/PayController.class.php 第 32 行.
+NOTIC: [8] Undefined index: ordsubject /var/www/Application/Ali/Controller/PayController.class.php 第 33 行.
+NOTIC: [8] Undefined index: ordtotal_fee /var/www/Application/Ali/Controller/PayController.class.php 第 34 行.
+NOTIC: [8] Undefined index: ordbody /var/www/Application/Ali/Controller/PayController.class.php 第 35 行.
+NOTIC: [8] Undefined index: ordshow_url /var/www/Application/Ali/Controller/PayController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+

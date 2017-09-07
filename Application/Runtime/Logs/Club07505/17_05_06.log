@@ -1,0 +1,24 @@
+[ 2017-05-06T13:55:58+08:00 ] 103.7.30.104 /index.php/Club07505/Index/Index?signature=b5a2f63f17e90165e70fa84241d0596d3d1c2dc6&timestamp=1494050157&nonce=1434425818&openid=or-DMwM6zFTjkKQoZTl-959UtitY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-05-06T13:56:10+08:00 ] 103.7.30.104 /index.php/Club07505/Index/Index?signature=91a3637695dc78ad166d88170159e385c4aab3df&timestamp=1494050170&nonce=171705650&openid=or-DMwM6zFTjkKQoZTl-959UtitY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Memcache::connect(): Server 127.0.0.1 (tcp 12121, udp 0) failed with: Connection refused (111) /var/www/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php 第 43 行.
+NOTIC: [2] Memcache::connect(): Can't connect to 127.0.0.1:12121, Connection refused (111) /var/www/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+

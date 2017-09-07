@@ -1,0 +1,8 @@
+1，Controller 功能
+	a,输入imgurl
+	b,file_get_contents下载相应的文件
+	c,文件命名规则	"/"、"."全部替换成为"_"
+	d,返回相应的json{"url":"//api.u7jewelry.com/uploads/u7cache/$filename"}
+2，javascript 功能
+	a,获取页面当中的所有的img节点
+	b,循环设置节点
