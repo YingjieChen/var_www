@@ -14,4 +14,34 @@
 		}
 		return preg_replace($search, $replace, $string);
 	}
+
+	function mb_wordwrap($str, $width = 75,$charset='utf-8',$break = "\n", $cut = false) {
+		$lines = explode($break, $str);
+		foreach($lines as &$line){
+			$line = rtrim($line);
+			if (mb_strlen($line,$charset) <= $width)
+				continue;
+			$words = explode(' ', $line);
+			$line = '';
+			$actual = '';
+			foreach ($words as $word) {
+				if (mb_strlen($actual.$word,$charset) <= $width)
+					$actual .= $word.' ';
+				else {
+					if ($actual != '')
+						$line .= rtrim($actual).$break;
+						$actual = $word;
+					if ($cut) {
+						while (mb_strlen($actual,$charset) > $width) {
+							$line .= mb_substr($actual, 0, $width,$charset).$break;
+							$actual = mb_substr($actual, $width,null,'utf-8');
+						}
+					}
+					$actual .= ' ';
+				}
+			}
+			$line .= trim($actual);
+		}
+		return implode($break, $lines);
+	}
 ?>

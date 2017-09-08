@@ -1,6 +1,7 @@
 <?php
 	require_once("function.php");
 	$maxlength      =       16;
+	$wrapsize       =       0;
         function drawString($img,$middlepoint,$radius,$fontsize,$color,$font,$string,$startangle=622,$angleSize=40){
                 //编码处理
                 //相关计量
@@ -10,7 +11,14 @@
                 $words = array(); //字符数组
                 for($i=0;$i<$leng;$i++){
                         $words[] = mb_substr($string,$i,1,'utf8');
-                        $r = $startangle + $avgAngle*($i - $leng/2) + ($i-1);   //坐标角度
+                        switch($words[$i-1]){
+                                case("r"):
+                                case("l"):
+                                case("i"):
+                                        $wrapsize+=0.5;
+                                break;
+                        }
+                        $r = $startangle + $avgAngle*($i - $leng/2-$wrapsize) + ($i-1);   //坐标角度
                         $R = $startangle+98 - $avgAngle*($leng-2*$i-1)/2 + (1-$i);  //字符角度
                         $x = $middlepoint['x'] + $radius * cos(deg2rad($r)); //字符的x坐标
                         $y = $middlepoint['y'] - $radius * sin(deg2rad($r)); //字符的y坐标

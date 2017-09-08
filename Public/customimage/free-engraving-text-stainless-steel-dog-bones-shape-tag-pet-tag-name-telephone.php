@@ -39,7 +39,7 @@
         $circleSize3     =       isset($_GET['circlesize3'])?intval($_GET['circlesize3']):0;   //字体大小
         $top3            =       isset($_GET['top3'])?intval($_GET['top3']):150;       //顶边距
         $textcontent3    =       $_GET['textcontent3'];
-	$textcontent3	=	utf8_wordwrap($textcontent3,23,"\n",true);
+	$textcontent3	=	wordwrap($textcontent3,23,"\n");
         $left3           =       isset($_GET['left3'])?intval($_GET['left3']):150;      //左边距	
 	
 	$gender		=	isset($_GET['gender'])?strip_tags($_GET['gender']):"male";
