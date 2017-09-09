@@ -12,6 +12,12 @@
 	$is_fileuploaded	=	isset($_POST['type']);
 	if($is_fileuploaded){
 		//提交图片的时候的操作
+		$imagefile	=	$_FILES['imagefile'];
+		$tmpname	=	$imagefile['tmp_name'];
+		$file_parts 	= 	pathinfo('dir/'.$imagefile['name']);
+		$despath	=	"upload/".time().$file_parts['extension'];
+		move_uploaded_file($tmpname,$despath);
+		//这里进行相应的图片合成操作图片合成完毕之后的结果 left 365 top 350
 	}else{
 		//没有提交图片的时候的操作
 		//获取远方提交的字符串
@@ -19,14 +25,14 @@
 		//字符串是否超出长度
 		$linesize	=	6;
 		$strlen		=	mb_strlen($fonttext,'utf-8');
-		$fontSize	=	40;//这个建议为3的倍数
+		$fontSize	=	42;//这个建议为3的倍数
 		
 		/*$rows		=	ceil($strlen/$linesize);
 		$rows		=	$rows>4?4:$rows;
 		$fontSize	=	$fontSize/$rows;*/
 
 		$fonttextnew    =       mb_substr($fonttext,0,24,'utf-8');
-		$fonttextnew    =       mb_wordwrap($fonttextnew,$linesize,'utf-8',"\n",true);
+		$fonttextnew    =       strtoupper(mb_wordwrap($fonttextnew,$linesize,'utf-8',"\n",true));
 		//画出新的图片		
 		if(isset($_GET['bigimgpath'])){
 			$bigImgPath	=	$_GET['bigimgpath'];
@@ -46,8 +52,45 @@
 		
 		$top 		= 	isset($_GET['top'])?intval($_GET['top']):365;       //顶边距
 		$left           =       isset($_GET['left'])?intval($_GET['left']):350;      //左边距
+		
+		$drawingtext	=	explode("\n",$fonttextnew);
+		//linesize
+		
+		$beishus	=	array(
+			1=>1.5,
+			2=>1.5,
+			3=>1.5,
+			4=>(6/4),
+			5=>(6/5),
+			6=>1
+		);
 
-		imagefttext($img, $fontSize, $circleSize, $left, $top, $black, $font,$fonttextnew);
+		
+
+		$top1		=	0;
+		for($i=0;$i<count($drawingtext)&&$i<4;$i++){
+			$linesize	=	mb_strlen($drawingtext[$i],'utf-8');
+			if($i==0){
+				$top1	=0;
+			}else{
+				$linesize2	=       mb_strlen($drawingtext[$i-1],'utf-8');
+				if($linesize2<=3){
+					$top1	+=	1.5*$fontSize*4/3;
+				}else{
+					//$top1   +=      1.5*$fontSize*$beishu*4/3;
+					$top1	+=	$fontSize*4/3*6/$linesize2;
+				}
+			}
+			
+			for($j=0;$j<$linesize;$j++){
+				$ord	=	ord(mb_substr($drawingtext[$i],$j,1,'utf-8'));
+				if($ord>19&&$ord<127){
+					imagefttext($img, $fontSize*$beishus[$linesize]*4/3,$circleSize,$left+$fontSize*$beishus[$linesize]*4/3*$j,$top+$top1*$beishus[$linesize]+($top1+$fontSize*$beishus[$linesize]*4/3)/3, $black, $font,mb_substr($drawingtext[$i],$j,1,'utf-8'));
+				}else{
+					imagefttext($img, $fontSize*$beishus[$linesize], $circleSize, $left+$fontSize*$beishus[$linesize]*4/3*$j, $top+$top1*$beishus[$linesize]+($top1+$fontSize*$beishus[$linesize])/3, $black, $font,mb_substr($drawingtext[$i],$j,1,'utf-8'));
+				}
+			}
+		}
 		list($bgWidth, $bgHight, $bgType) = getimagesize($bigImgPath);
 		switch ($bgType) {
 			case 1: //gif

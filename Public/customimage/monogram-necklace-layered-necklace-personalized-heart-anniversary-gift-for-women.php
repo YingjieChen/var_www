@@ -54,7 +54,7 @@
 
 	$font		 =	"./font/$fontname.ttf";
 	//$font 	 = 	"./font/fofbb_ital.otf";//字体
-	$black          =       imagecolorallocate($img, 255, 255,255);//字体颜色 RGB
+	$black          =       imagecolorallocate($img, 0, 0,0);//字体颜色 RGB
 
 	$fontSize 	 = 	isset($_GET['fontsize'])?intval($_GET['fontsize']):20;   	//字体大小
 	$circleSize 	 = 	isset($_GET['circlesize'])?intval($_GET['circlesize']):0;   	//字体大小
@@ -72,8 +72,8 @@
 	//imagefttext($img, $fontSize, $circleSize, $left, $top, $black, $font,$textcontent);
 	//imagefttext($img, $fontSize2, $circleSize2, $left2, $top2, $black, $font,$textcontent2);
 	/*http://api.u7jewelry.com/customimage/monogram-necklace-layered-necklace-personalized-heart-anniversary-gift-for-women.php?bigimgpath=https://cdn.shopify.com/s/files/1/0964/9808/products/golden_0ac594cb-58c2-43e1-a5d4-d56a0bdcd598_1024x1024.png&fontname=Times_New_Roman&fontsize=12&left=299.06&top=582.09&textcontent=jack%20and%20rose&circlesize=193&fontsize2=12&left2=713&top2=581&textcontent2=jack%20and%20rose&circlesize2=193*/
-	drawString($img,array('x'=>$left,'y'=>$top),$circleSize,$fontSize,$black,$font,$textcontent,618);
-	drawString($img,array('x'=>$left2,'y'=>$top2),$circleSize2,$fontSize2,$black,$font,$textcontent2,630,38);
+	drawString($img,array('x'=>$left,'y'=>$top),$circleSize,$fontSize,$black,$font,$textcontent,623,45);
+	drawString($img,array('x'=>$left2,'y'=>$top2),$circleSize2,$fontSize2,$black,$font,$textcontent2,623,45);
 	list($bgWidth, $bgHight, $bgType) = getimagesize($bigImgPath);
 	switch ($bgType) {
 		case 1: //gif
