@@ -164,9 +164,9 @@
 		$reviewattObj   =   M("reviewatt");
 		$page           =   I("get.page",1,"intval");
 		$pagesize       =   I("pagesize",C("PAGE_SIZE"),"intval");
-		$avg            =   ceil($reviewattObj->where(array("ratting"=>array("gt",3),"isshow"=>1))->where("body<>''")->avg("rating"));
-		$total=$reviewattObj->where(array("isshow"=>1,"ratting"=>array("gt",3)))->where("body<>''")->count();
-		$rows=$reviewattObj->where(array("isshow"=>1,"ratting"=>array("gt",3)))->where("body<>''")->limit(($page-1)*$pagesize.','.$pagesize)->order("create_at desc,product_id")->select();
+		$avg            =   ceil($reviewattObj->where(array("isshow"=>1))->avg("rating"));
+		$total=$reviewattObj->where(array("isshow"=>1))->count();
+		$rows=$reviewattObj->where(array("isshow"=>1))->limit(($page-1)*$pagesize.','.$pagesize)->order("create_at desc,product_id")->select();
 		foreach($rows as $key=>$row)
 		{
 			$row["createstring"]=date("M d,Y",strtotime($row["create_at"]));
